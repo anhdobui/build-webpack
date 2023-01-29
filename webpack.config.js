@@ -46,6 +46,10 @@ module.exports = (env) => {
                     ]
                   }
                 }
+              },
+              {
+                test: /\.(png|svg|jpg|jpeg|gif|pdf)$/i,
+                type: 'asset/resource'
               }
           ]
         },

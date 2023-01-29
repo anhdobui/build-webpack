@@ -1,9 +1,10 @@
 import 'core-js/modules/es.object.values'
 import 'core-js/modules/es.promise'
 import './styles/style.css'
+import domHandler from './dom'
 const sum = (num1,num2) => num1 + num2
 console.log(sum(100,10))
-
+domHandler()
 // ES6 Spread Operator
 const person = { name: 'Do' }
 const personClone = { ...person }
